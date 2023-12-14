@@ -35,9 +35,9 @@ python3 main.py
 
 ---
 
-***Online Community Monitoring***
+**Online Community Monitoring**
 
-***Quantitative and Qualitative Analysis of Subreddit Sentiment Trends***
+**Quantitative and Qualitative Analysis of Subreddit Sentiment Trends**
 
 
 **Introduction**
@@ -49,7 +49,6 @@ Our initiative leverages live data extraction from Reddit, gathering posts and c
 **Description of the data sets**
 
 
-![image](https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/1944068d-664e-4141-949c-a22058afe2c2)
 
 
 
