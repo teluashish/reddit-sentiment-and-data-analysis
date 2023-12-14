@@ -35,6 +35,24 @@ python3 main.py
 
 ---
 
+***Online Community Monitoring***
+
+***Quantitative and Qualitative Analysis of Subreddit Sentiment Trends***
+
+
+**Introduction**
+
+Reddit is a popular social media forum that attracts significant numbers of users, content, and engagement from around the globe. Its ever-growing volume of online community discourse presents a platform that can inadvertently shape opinions, damage brands, and incite real-world action. Identifying and understanding swings in user sentiments is becoming more and more critical to combat inaccurate and inadequate information and general community divisiveness. Our application allows subreddit stake holders to monitor their online communities for significant swings in sentiment that could have broadly negative implications if left unchecked.
+
+Our initiative leverages live data extraction from Reddit, gathering posts and comments based on either predefined datasets or user-provided criteria. We employ sophisticated transformer-based models such as BERT, RoBERTa, and Electra, which have been meticulously adjusted for the task of detecting and forecasting sentiment pertaining to six distinct emotions: sadness, joy, love, anger, fear, and surprise. We compile these sentiment evaluations to construct a detailed sentiment trajectory for each emotion over a chosen period. The outcome of this assessment is depicted in a detailed chart that illustrates the fluctuation of these emotional sentiments over time, providing critical insights into the dynamics of subreddit communities.
+
+**Description of the data sets**
+
+
+![image](https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/1944068d-664e-4141-949c-a22058afe2c2)
+
+
+
 Team Members (Contributors):
 1. Ashish Telukunta
 2. Thomas Stanton
