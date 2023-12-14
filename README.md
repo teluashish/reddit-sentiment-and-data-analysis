@@ -2,11 +2,6 @@
 
 This is a copy of the repository where I worked with a team of 3 to complete the project.
 
-Team Members:
-1. Ashish Telukunta
-2. Thomas Stanton
-3. Jonathan Schild 
-
 Actual Repository Link: https://github.com/jschild01/Final-Project-Group3
 
 ## Installations
@@ -39,3 +34,8 @@ python3 main.py
 ```
 
 ---
+
+Team Members (Contributors):
+1. Ashish Telukunta
+2. Thomas Stanton
+3. Jonathan Schild 
