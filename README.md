@@ -78,7 +78,7 @@ In the fine-tuning of our models, we conducted a hyperparameter search focusing 
 #### Streamlit UI and Example Execution
 
 
-<img width="368" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/images/picture1.png">
+<img width="368" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/images/Picture1.png">
  
 Figure 1: Stream Lit User Input Tab 
 
