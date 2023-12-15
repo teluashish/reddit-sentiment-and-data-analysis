@@ -83,6 +83,62 @@ Figure 1: Stream Lit User Input Tab
 
 The above figure allows users to input number of comments, posts, subreddit name, time filer, and interval to retrieving live reddit posts and comments.
 
+<img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/30e58c59-b9ef-465f-9920-a43cf19db8b5">
+
+Figure 2: Transformer model Selection Tab. ![image](https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/460ba81d-3a97-4ca9-a175-6e6a97bc4200)
+
+<img width="378" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/21f0f245-bf3e-4300-9132-a6f6d9f2923d">
+
+The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
+
+<img width="378" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/81447787-2cf3-43c2-935c-dbbcf391f6c0">
+
+Figure 3: Selecting best_model_electra
+
+The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
+
+<img width="406" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/9888a236-a0f2-4372-a95e-c243e48899ce">
+
+Figure 4: Final plots for sentiment trends
+
+The first graph on the top shows the trend of average scores for each interval over a period specified by the user. Similarly, the second graph shows the average positive and negative sentiment trends to help correlate the positivity and negativity with the emotions trend.
+
+We have also implemented the feature to use pre-loaded data to plot the sentiment trends, which can be seen from the below figures.
+
+<img width="264" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/5bd440e5-8d76-4563-ae3b-8925ffe63631">
+
+Figure 3: Sample execution using Pre-loaded Data (1)
+
+<img width="255" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/7e96e67b-ab46-4e8c-aef1-bf6ce7e4cf54">
+
+Figure 4: Sample execution using Pre-loaded Data (2)
+
+All our models identified and predicted similar trends in the changes of sentiment, i.e., they each displayed similar deltas in emotion across time. However, while the BERT-based architectures provided robust accuracy, the qualitative analysis showed ELECTRA better captured contextual emotion semantics. This was evident when predicting sentiment across different subreddits using all four of our models and comparing their visualizations. Examples with the “funny” and “wallstreetbets” subreddits show how each model identifies similar patterns, and how the ELECTRA better captures emotions that would be expected from the subreddits. 
+
+<img width="463" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/8b9edc57-94b5-455b-8469-feb54df631e8">
+
+Figure 5: Qualitative Analysis of r/funny
+
+<img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/6578f823-3d38-4529-bfa6-3a8968b1cfdc">
+
+Figure 6: Qualitative Analysis of r/wallstreetbets
+
+<img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/652a9fc0-4648-4177-9d5e-3374d3fd5465">
+
+Figure 7: Average Sentiment Score Plot of r/wallstreetbets
+
+The figure above showcases a line graph depicting the average sentiment scores for six emotions across different intervals. A higher interval number corresponds to more recent data, while lower interval numbers indicate older data. From the graph, we can observe that members of r/wallstreetbets predominantly exhibit emotions of Anger, potentially due to financial losses in stocks, or Joy, likely resulting from profits. These predominant emotions are followed by Sadness, Fear, and Surprise, which are common in the context of r/wallstreetbets. The emotion of Love is observed the least as expected. As we can see the sentiment trend is characteristic of the r/wallstreetbets community.
+Summary and Conclusions
+
+Our project involved developing a sentiment analysis tool using advanced NLP models—BERT1, BERT2, RoBERTa, and ELECTRA—fine-tuned on a dataset of 90,000 Twitter posts labeled with six emotions and Reddit comments from r/wallstreetbets. We optimized the models by conducting a hyperparameter search, particularly focusing on learning rates and batch size, and utilized the Adam optimizer for training efficiency. The models' performance was quantitatively assessed using F1 scores and accuracy, and qualitatively by examining sentiment trends against real-world events. We integrated these models into a Streamlit application that visually displays sentiment trends over time, allowing users to interact with and analyze the changing online discourse within specified intervals.
+
+## Future Improvements
+
+Custom Date Range Retrieval: Modify the Reddit scraping script to enable custom date range inputs for more personalized data extraction.
+Dynamic Sentiment Analysis: Establish an automated system that continuously integrates, evaluates, and forecasts new data to provide up-to-the-minute sentiment analysis.
+Enhanced Token Utilization: Expand the max_len parameter in pre-trained models from Hugging Face to include a greater number of tokens, enhancing the model's ability to discern subtleties in lengthier text segments, which could lead to more accurate sentiment interpretation.
+Data Augmentation and Pseudo-Labeling: Enrich the training dataset by collecting additional data and employing pseudo-labeling techniques to expand the model's learning scope with unsupervised data.
+
 
 
 Team Members (Contributors):
