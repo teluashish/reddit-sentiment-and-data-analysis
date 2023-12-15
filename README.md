@@ -90,6 +90,20 @@ This code returns data for concise analysis and plotting of emotional and sentim
 
 F-1 Scores are consistent across all the emotions in RoBERTa and Electra and are acceptable for a good model. However, ‘Fear’ has the lowest F-1 Score of 0.92 which is still high enough to be acceptable. 
 
+<img width="250" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture10.svg">
+
+The validation accuracy of Electra is 0.9531 with a 0.9530 overall F-1 Score and the validation accuracy of RoBERTa is 0.9502 and F-1 Score is 0.9502. There is no significant difference between the performance metrics between the two models.
+
+<img width="350" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture11.svg">
+
+Fig 1. Classification Report of RoBERTa
+
+The above figure represents different performance metrics to gauge how the fine-tuned RoBERTa model has performed across various emotion categories.
+
+<img width="350" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture12.svg">
+Fig 2. Classification Report of Electra 
+
+The above figure represents different performance metrics to gauge how the fine-tuned Electra model has performed across various emotion categories.
 
 #### Streamlit UI and Example Execution
 
