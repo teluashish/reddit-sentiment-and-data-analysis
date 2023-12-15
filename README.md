@@ -117,7 +117,11 @@ Figure 6: Sample execution using Pre-loaded Data (2)
 
 Figure 7: Average Sentiment Score Plot of r/wallstreetbets
 
-The figure above showcases a line graph depicting the average sentiment scores for six emotions across different intervals. A higher interval number corresponds to more recent data, while lower interval numbers indicate older data. From the graph, we can observe that members of r/wallstreetbets predominantly exhibit emotions of Anger, potentially due to financial losses in stocks, or Joy, likely resulting from profits. These predominant emotions are followed by Sadness, Fear, and Surprise, which are common in the context of r/wallstreetbets. The emotion of Love is observed the least as expected. As we can see the sentiment trend is characteristic of the r/wallstreetbets community.
+r/wallstreetbets is primarily a community focused on stock market trading, often characterized by rapid shifts in investment positions, risk-taking, and the volatile nature of gains and losses. The primary emotions involved in this context are typically related to the outcomes of financial decisions—Joy in response to profits, Anger or Sadness due to losses, Fear from market uncertainty, and Surprise from unexpected market movements.
+
+The figure above showcases a line graph depicting the average sentiment scores for six emotions across different intervals. A higher interval number corresponds to more recent data, while lower interval numbers indicate older data. From the graph, we can observe that members of r/wallstreetbets predominantly exhibit emotions of Anger, potentially due to financial losses in stocks, or Joy, likely resulting from profits. These predominant emotions are followed by Sadness, Fear, and Surprise, which are common in the context of r/wallstreetbets. The emotion of Love is observed the least as expected. As we can see the sentiment trend is characteristic of the r/wallstreetbets community. 
+
+
 Summary and Conclusions
 
 <img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture8.svg">
