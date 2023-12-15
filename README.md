@@ -98,7 +98,7 @@ Figure 3: Selecting best_model_electra
 
 The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.jpg">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.png">
 
 Figure 4: Final plots for sentiment trends
 
@@ -106,7 +106,7 @@ The first graph on the top shows the trend of average scores for each interval o
 
 We have also implemented the feature to use pre-loaded data to plot the sentiment trends, which can be seen from the below figures.
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture6.jpg">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture6.png">
 
 Figure 5: Sample execution using Pre-loaded Data (1)
 
@@ -121,8 +121,6 @@ Figure 7: Qualitative Analysis of r/funny
 <img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture9.png">
 
 Figure 8: Qualitative Analysis of r/wallstreetbets
-
-<img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/652a9fc0-4648-4177-9d5e-3374d3fd5465">
 
 All our models identified and predicted similar trends in the changes of sentiment, i.e., they each displayed similar deltas in emotion across time. However, while the BERT-based architectures provided robust accuracy, the qualitative analysis showed ELECTRA better captured contextual emotion semantics. This was evident when predicting sentiment across different subreddits using all four of our models and comparing their visualizations. Examples with the “funny” and “wallstreetbets” subreddits show how each model identifies similar patterns, and how the ELECTRA better captures emotions that would be expected from the subreddits. 
 
