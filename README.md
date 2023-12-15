@@ -73,10 +73,25 @@ After pulling in the live data, our application displays a histogram that allows
 
 In the fine-tuning of our models, we conducted a hyperparameter search focusing primarily on the learning rate and batch size, two crucial aspects that significantly influence model performance. For BERT1 and BERT2, we arrived at an optimal learning rate of 0.0001, while RoBERTa's configuration required a lower rate of 0.00002, reflecting its sensitivity to learning speed. ELECTRA, on the other hand, performed best with a slightly higher learning rate of 0.00005, possibly due to its distinctive pre-training approach. All models were trained using a consistent batch size of 128, which provided a balance between resource allocation and model update frequency. The Adam optimizer was employed across all models, known for its adaptive learning rate capabilities, contributing to the fine-tuning process's efficiency and effectiveness.
 
+### Compute Sentiment Score Averages
+
+compute six sentiment scores for each scraped Reddit post or comment. compute the average for each of the scores for each interval using the code 
+
+```
+combined_averages = df.groupby('Interval Number')[emotion_columns].mean()
+```
+
+This code returns data for concise analysis and plotting of emotional and sentiment trends across different time intervals in the Reddit posts and comments.
+
+
 ### Results and Observations 
 
-#### Streamlit UI and Example Execution
+#### Model Evaluations
 
+F-1 Scores are consistent across all the emotions in RoBERTa and Electra and are acceptable for a good model. However, ‘Fear’ has the lowest F-1 Score of 0.92 which is still high enough to be acceptable. 
+
+
+#### Streamlit UI and Example Execution
 
 <img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture1.svg">
  
