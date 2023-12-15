@@ -78,56 +78,59 @@ In the fine-tuning of our models, we conducted a hyperparameter search focusing 
 #### Streamlit UI and Example Execution
 
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture1.png">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture1.svg">
  
 Figure 1: Stream Lit User Input Tab 
 
 The above figure allows users to input number of comments, posts, subreddit name, time filer, and interval to retrieving live reddit posts and comments.
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture2.png">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture2.svg">
 
 Figure 2: Transformer model Selection Tab. 
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture3.png">
-
-The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
-
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture4.png">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture3.svg">
 
 Figure 3: Selecting best_model_electra
 
 The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
 
-<img width="400" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.png">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture4.svg">
 
 Figure 4: Final plots for sentiment trends
+
+The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
+
+<img width="400" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.svg">
+
+Figure 5: Sample execution using Pre-loaded Data (1)
 
 The first graph on the top shows the trend of average scores for each interval over a period specified by the user. Similarly, the second graph shows the average positive and negative sentiment trends to help correlate the positivity and negativity with the emotions trend.
 
 We have also implemented the feature to use pre-loaded data to plot the sentiment trends, which can be seen from the below figures.
 
-<img width="400" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture1.svg">
-
-Figure 5: Sample execution using Pre-loaded Data (1)
-
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture7.png">
+<img width="400" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture6.svg">
 
 Figure 6: Sample execution using Pre-loaded Data (2)
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture8.png">
-
-Figure 7: Qualitative Analysis of r/funny
-
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture9.png">
-
-Figure 8: Qualitative Analysis of r/wallstreetbets
-
-All our models identified and predicted similar trends in the changes of sentiment, i.e., they each displayed similar deltas in emotion across time. However, while the BERT-based architectures provided robust accuracy, the qualitative analysis showed ELECTRA better captured contextual emotion semantics. This was evident when predicting sentiment across different subreddits using all four of our models and comparing their visualizations. Examples with the “funny” and “wallstreetbets” subreddits show how each model identifies similar patterns, and how the ELECTRA better captures emotions that would be expected from the subreddits. 
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture9.svg">
 
 Figure 9: Average Sentiment Score Plot of r/wallstreetbets
 
+All our models identified and predicted similar trends in the changes of sentiment, i.e., they each displayed similar deltas in emotion across time. However, while the BERT-based architectures provided robust accuracy, the qualitative analysis showed ELECTRA better captured contextual emotion semantics. This was evident when predicting sentiment across different subreddits using all four of our models and comparing their visualizations. Examples with the “funny” and “wallstreetbets” subreddits show how each model identifies similar patterns, and how the ELECTRA better captures emotions that would be expected from the subreddits. 
+
+
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture7.svg">
+
+Figure 7: Qualitative Analysis of r/funny
+
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture8.svg">
+
+Figure 8: Qualitative Analysis of r/wallstreetbets
+
 The figure above showcases a line graph depicting the average sentiment scores for six emotions across different intervals. A higher interval number corresponds to more recent data, while lower interval numbers indicate older data. From the graph, we can observe that members of r/wallstreetbets predominantly exhibit emotions of Anger, potentially due to financial losses in stocks, or Joy, likely resulting from profits. These predominant emotions are followed by Sadness, Fear, and Surprise, which are common in the context of r/wallstreetbets. The emotion of Love is observed the least as expected. As we can see the sentiment trend is characteristic of the r/wallstreetbets community.
 Summary and Conclusions
+
+## Summary and Conclusions
 
 Our project involved developing a sentiment analysis tool using advanced NLP models—BERT1, BERT2, RoBERTa, and ELECTRA—fine-tuned on a dataset of 90,000 Twitter posts labeled with six emotions and Reddit comments from r/wallstreetbets. We optimized the models by conducting a hyperparameter search, particularly focusing on learning rates and batch size, and utilized the Adam optimizer for training efficiency. The models' performance was quantitatively assessed using F1 scores and accuracy, and qualitatively by examining sentiment trends against real-world events. We integrated these models into a Streamlit application that visually displays sentiment trends over time, allowing users to interact with and analyze the changing online discourse within specified intervals.
 
@@ -137,7 +140,6 @@ Our project involved developing a sentiment analysis tool using advanced NLP mod
 2. Dynamic Sentiment Analysis: Establish an automated system that continuously integrates, evaluates, and forecasts new data to provide up-to-the-minute sentiment analysis.
 3. Enhanced Token Utilization: Expand the max_len parameter in pre-trained models from Hugging Face to include a greater number of tokens, enhancing the model's ability to discern subtleties in lengthier text segments, which could lead to more accurate sentiment interpretation.
 4. Data Augmentation and Pseudo-Labeling: Enrich the training dataset by collecting additional data and employing pseudo-labeling techniques to expand the model's learning scope with unsupervised data.
-
 
 
 Team Members (Contributors):
