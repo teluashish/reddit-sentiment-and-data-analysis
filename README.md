@@ -98,7 +98,7 @@ Figure 3: Selecting best_model_electra
 
 The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.png">
+<img width="400" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.png">
 
 Figure 4: Final plots for sentiment trends
 
@@ -106,7 +106,7 @@ The first graph on the top shows the trend of average scores for each interval o
 
 We have also implemented the feature to use pre-loaded data to plot the sentiment trends, which can be seen from the below figures.
 
-<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture6.png">
+<img width="400" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture6.png">
 
 Figure 5: Sample execution using Pre-loaded Data (1)
 
