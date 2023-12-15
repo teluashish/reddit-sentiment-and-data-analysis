@@ -107,25 +107,25 @@ We have also implemented the feature to use pre-loaded data to plot the sentimen
 
 <img width="264" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/5bd440e5-8d76-4563-ae3b-8925ffe63631">
 
-Figure 3: Sample execution using Pre-loaded Data (1)
+Figure 5: Sample execution using Pre-loaded Data (1)
 
 <img width="255" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/7e96e67b-ab46-4e8c-aef1-bf6ce7e4cf54">
 
-Figure 4: Sample execution using Pre-loaded Data (2)
-
-All our models identified and predicted similar trends in the changes of sentiment, i.e., they each displayed similar deltas in emotion across time. However, while the BERT-based architectures provided robust accuracy, the qualitative analysis showed ELECTRA better captured contextual emotion semantics. This was evident when predicting sentiment across different subreddits using all four of our models and comparing their visualizations. Examples with the “funny” and “wallstreetbets” subreddits show how each model identifies similar patterns, and how the ELECTRA better captures emotions that would be expected from the subreddits. 
+Figure 6: Sample execution using Pre-loaded Data (2)
 
 <img width="463" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/8b9edc57-94b5-455b-8469-feb54df631e8">
 
-Figure 5: Qualitative Analysis of r/funny
+Figure 7: Qualitative Analysis of r/funny
 
 <img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/6578f823-3d38-4529-bfa6-3a8968b1cfdc">
 
-Figure 6: Qualitative Analysis of r/wallstreetbets
+Figure 8: Qualitative Analysis of r/wallstreetbets
 
 <img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/652a9fc0-4648-4177-9d5e-3374d3fd5465">
 
-Figure 7: Average Sentiment Score Plot of r/wallstreetbets
+All our models identified and predicted similar trends in the changes of sentiment, i.e., they each displayed similar deltas in emotion across time. However, while the BERT-based architectures provided robust accuracy, the qualitative analysis showed ELECTRA better captured contextual emotion semantics. This was evident when predicting sentiment across different subreddits using all four of our models and comparing their visualizations. Examples with the “funny” and “wallstreetbets” subreddits show how each model identifies similar patterns, and how the ELECTRA better captures emotions that would be expected from the subreddits. 
+
+Figure 9: Average Sentiment Score Plot of r/wallstreetbets
 
 The figure above showcases a line graph depicting the average sentiment scores for six emotions across different intervals. A higher interval number corresponds to more recent data, while lower interval numbers indicate older data. From the graph, we can observe that members of r/wallstreetbets predominantly exhibit emotions of Anger, potentially due to financial losses in stocks, or Joy, likely resulting from profits. These predominant emotions are followed by Sadness, Fear, and Surprise, which are common in the context of r/wallstreetbets. The emotion of Love is observed the least as expected. As we can see the sentiment trend is characteristic of the r/wallstreetbets community.
 Summary and Conclusions
