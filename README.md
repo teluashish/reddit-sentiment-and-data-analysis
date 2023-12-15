@@ -135,10 +135,10 @@ Our project involved developing a sentiment analysis tool using advanced NLP mod
 
 ## Future Improvements
 
-Custom Date Range Retrieval: Modify the Reddit scraping script to enable custom date range inputs for more personalized data extraction.
-Dynamic Sentiment Analysis: Establish an automated system that continuously integrates, evaluates, and forecasts new data to provide up-to-the-minute sentiment analysis.
-Enhanced Token Utilization: Expand the max_len parameter in pre-trained models from Hugging Face to include a greater number of tokens, enhancing the model's ability to discern subtleties in lengthier text segments, which could lead to more accurate sentiment interpretation.
-Data Augmentation and Pseudo-Labeling: Enrich the training dataset by collecting additional data and employing pseudo-labeling techniques to expand the model's learning scope with unsupervised data.
+1. Custom Date Range Retrieval: Modify the Reddit scraping script to enable custom date range inputs for more personalized data extraction.
+2. Dynamic Sentiment Analysis: Establish an automated system that continuously integrates, evaluates, and forecasts new data to provide up-to-the-minute sentiment analysis.
+3. Enhanced Token Utilization: Expand the max_len parameter in pre-trained models from Hugging Face to include a greater number of tokens, enhancing the model's ability to discern subtleties in lengthier text segments, which could lead to more accurate sentiment interpretation.
+4. Data Augmentation and Pseudo-Labeling: Enrich the training dataset by collecting additional data and employing pseudo-labeling techniques to expand the model's learning scope with unsupervised data.
 
 
 
