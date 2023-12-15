@@ -85,7 +85,7 @@ The above figure allows users to input number of comments, posts, subreddit name
 
 <img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/30e58c59-b9ef-465f-9920-a43cf19db8b5">
 
-Figure 2: Transformer model Selection Tab. ![image](https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/460ba81d-3a97-4ca9-a175-6e6a97bc4200)
+Figure 2: Transformer model Selection Tab. 
 
 <img width="378" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/21f0f245-bf3e-4300-9132-a6f6d9f2923d">
 
