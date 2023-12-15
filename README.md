@@ -84,21 +84,21 @@ Figure 1: Stream Lit User Input Tab
 
 The above figure allows users to input number of comments, posts, subreddit name, time filer, and interval to retrieving live reddit posts and comments.
 
-<img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/30e58c59-b9ef-465f-9920-a43cf19db8b5">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture2.png">
 
 Figure 2: Transformer model Selection Tab. 
 
-<img width="378" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/21f0f245-bf3e-4300-9132-a6f6d9f2923d">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture3.png">
 
 The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
 
-<img width="378" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/81447787-2cf3-43c2-935c-dbbcf391f6c0">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture4.png">
 
 Figure 3: Selecting best_model_electra
 
 The above figure represents the output after selecting the best_model_electra and applying the fetched live reddit data on it.
 
-<img width="406" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/9888a236-a0f2-4372-a95e-c243e48899ce">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.png">
 
 Figure 4: Final plots for sentiment trends
 
@@ -106,19 +106,19 @@ The first graph on the top shows the trend of average scores for each interval o
 
 We have also implemented the feature to use pre-loaded data to plot the sentiment trends, which can be seen from the below figures.
 
-<img width="264" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/5bd440e5-8d76-4563-ae3b-8925ffe63631">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture6.png">
 
 Figure 5: Sample execution using Pre-loaded Data (1)
 
-<img width="255" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/7e96e67b-ab46-4e8c-aef1-bf6ce7e4cf54">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture7.png">
 
 Figure 6: Sample execution using Pre-loaded Data (2)
 
-<img width="463" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/8b9edc57-94b5-455b-8469-feb54df631e8">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture8.png">
 
 Figure 7: Qualitative Analysis of r/funny
 
-<img width="468" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/assets/66863362/6578f823-3d38-4529-bfa6-3a8968b1cfdc">
+<img width="600" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture9.png">
 
 Figure 8: Qualitative Analysis of r/wallstreetbets
 
