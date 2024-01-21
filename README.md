@@ -1,9 +1,5 @@
 # reddit-sentiment-and-data-analysis
 
-This is a copy of the repository where I worked with a team of 3 to complete the project.
-
-Actual Repository Link: https://github.com/jschild01/Final-Project-Group3
-
 ## Installations
 
 ##### Requirements
