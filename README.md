@@ -170,8 +170,3 @@ Our project involved developing a sentiment analysis tool using advanced NLP mod
 3. Enhanced Token Utilization: Expand the max_len parameter in pre-trained models from Hugging Face to include a greater number of tokens, enhancing the model's ability to discern subtleties in lengthier text segments, which could lead to more accurate sentiment interpretation.
 4. Data Augmentation and Pseudo-Labeling: Enrich the training dataset by collecting additional data and employing pseudo-labeling techniques to expand the model's learning scope with unsupervised data.
 
-
-Team Members (Contributors):
-1. Ashish Telukunta
-2. Thomas Stanton
-3. Jonathan Schild 
