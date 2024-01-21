@@ -127,7 +127,7 @@ The above figure represents the output after selecting the best_model_electra an
 
 The first graph on the top shows the trend of average scores for each interval over a period specified by the user. Similarly, the second graph shows the average positive and negative sentiment trends to help correlate the positivity and negativity with the emotions trend.
 
-We have also implemented the feature to use pre-loaded data to plot the sentiment trends, which can be seen from the below figures.
+I have also implemented the feature to use pre-loaded data to plot the sentiment trends, which can be seen from the below figures.
 
 <img width="400" alt="image" src="https://github.com/teluashish/reddit-sentiment-and-data-analysis/blob/main/assets/images/Picture5.svg">
 
